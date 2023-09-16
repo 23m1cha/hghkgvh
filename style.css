@@ -3,10 +3,14 @@
    --cinza-segundario: #c0c0c0;
    --botao-azul: #167bf7;
    --cor-de-fundo: #00030c;
+   --fonte-principal: 'inter';
 }
 body {
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
+    font-weight: var(--branco-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
 * {
     margin: 0;
@@ -29,9 +33,20 @@ body {
     padding: 1em;
     color: var(--branco-principal);
     display: block;
+    text-decoration: none;
 }
 
 .botao__secundario{
     background-color: transparent;
     border: 2px solid var(--branco-principal);
+}
+
+.container__aiso{
+    font-size: 16px;
+    color: var(--cinza-segundario);
+}
+
+.container__titulo {
+    font-size: 28px;
+    font-weight: 700;
 }
