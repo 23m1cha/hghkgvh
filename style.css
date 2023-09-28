@@ -37,7 +37,8 @@ body {
     margin-bottom: 1em;
 }
 
-.botao__secundario{ t;
+.botao__secundario{
+    background-color: transparent;
     border: 2px solid var(--branco-principal);
 }
 
